@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		17F77DA011EBCC37428F5FD0 /* Pods-ChatDemoNew_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemoNew_Example.release.xcconfig"; path = "Target Support Files/Pods-ChatDemoNew_Example/Pods-ChatDemoNew_Example.release.xcconfig"; sourceTree = "<group>"; };
-		278D3F348AA001C8AB1B9151 /* ChatDemoNew.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ChatDemoNew.podspec; path = ../ChatDemoNew.podspec; sourceTree = "<group>"; };
-		44FD8B134A84B949AE646950 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		278D3F348AA001C8AB1B9151 /* ChatDemoNew.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ChatDemoNew.podspec; path = ../ChatDemoNew.podspec; sourceTree = "<group>"; };
+		44FD8B134A84B949AE646950 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ChatDemoNew_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDemoNew_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		8D646F44237CD3BC42930CB3 /* Pods-ChatDemoNew_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemoNew_Example.debug.xcconfig"; path = "Target Support Files/Pods-ChatDemoNew_Example/Pods-ChatDemoNew_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B84D2884CCA977119FE0DB7B /* Pods_ChatDemoNew_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemoNew_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E555F0DE4A7CDA43C9E3D9C7 /* Pods_ChatDemoNew_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemoNew_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DFD055A10D94AC47B213AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F4DFD055A10D94AC47B213AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				864E3E98180BEE87A09738BF /* Pods-ChatDemoNew_Tests.debug.xcconfig */,
 				6BCA6CD4727127100FF9C25E /* Pods-ChatDemoNew_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChatDemoNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChatDemoNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
