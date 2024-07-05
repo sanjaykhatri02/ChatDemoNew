@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ChatDemoNew_Example' do
+  pod 'ChatDemoNew', :path => '../'
+
+  target 'ChatDemoNew_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
