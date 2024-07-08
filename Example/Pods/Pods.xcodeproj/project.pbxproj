@@ -8,19 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0106E81BFDA8F5AFED23EFCC3DD4FC99 /* Pods-ChatDemoNew_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9F0E7ABAF151A5523351ABE820F66B /* Pods-ChatDemoNew_Example-dummy.m */; };
-		0458AD062C38119E008249AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD052C38119E008249AF /* Assets.xcassets */; };
-		0458AD132C3811F3008249AF /* ActivityLoaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD072C3811F2008249AF /* ActivityLoaderCell.xib */; };
-		0458AD142C3811F3008249AF /* MultiPDFCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD082C3811F2008249AF /* MultiPDFCVCell.xib */; };
-		0458AD152C3811F3008249AF /* SystemsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD092C3811F2008249AF /* SystemsTVCell.xib */; };
-		0458AD162C3811F3008249AF /* ConversationCellImageLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD0A2C3811F2008249AF /* ConversationCellImageLoginUser.xib */; };
-		0458AD172C3811F3008249AF /* TopicsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD0B2C3811F2008249AF /* TopicsCollectionViewCell.xib */; };
-		0458AD182C3811F3008249AF /* ConversationTableViewCellNoLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD0C2C3811F3008249AF /* ConversationTableViewCellNoLoginUser.xib */; };
-		0458AD192C3811F3008249AF /* ConversationLoginUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD0D2C3811F3008249AF /* ConversationLoginUserTableViewCell.xib */; };
-		0458AD1A2C3811F3008249AF /* ConversationCellFIleForLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD0E2C3811F3008249AF /* ConversationCellFIleForLoginUser.xib */; };
-		0458AD1B2C3811F3008249AF /* ConversationCellFileNonLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD0F2C3811F3008249AF /* ConversationCellFileNonLoginUser.xib */; };
-		0458AD1C2C3811F3008249AF /* MultiFilesCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD102C3811F3008249AF /* MultiFilesCVCell.xib */; };
-		0458AD1D2C3811F3008249AF /* MultiImageCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD112C3811F3008249AF /* MultiImageCVCell.xib */; };
-		0458AD1E2C3811F3008249AF /* ConversationCellImageNoLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD122C3811F3008249AF /* ConversationCellImageNoLoginUser.xib */; };
 		0458AD202C381200008249AF /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458AD1F2C381200008249AF /* Chat.storyboard */; };
 		0458AD762C38125B008249AF /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458AD222C38124F008249AF /* DatePicker.swift */; };
 		0458AD772C38125B008249AF /* WebResponseForTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458AD232C381250008249AF /* WebResponseForTopics.swift */; };
@@ -106,6 +93,19 @@
 		0458ADC72C38125C008249AF /* ConversationCellImageNoLoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458AD732C38125B008249AF /* ConversationCellImageNoLoginUser.swift */; };
 		0458ADC82C38125C008249AF /* SampleNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458AD742C38125B008249AF /* SampleNotificationDelegate.swift */; };
 		0458ADC92C38125C008249AF /* ConversationsByUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458AD752C38125B008249AF /* ConversationsByUUID.swift */; };
+		04E843442C3BD06C008D53AC /* MultiImageCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E843362C3BD06C008D53AC /* MultiImageCVCell.xib */; };
+		04E843452C3BD06D008D53AC /* MultiPDFCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E843372C3BD06C008D53AC /* MultiPDFCVCell.xib */; };
+		04E843462C3BD06D008D53AC /* ConversationCellFIleForLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E843382C3BD06C008D53AC /* ConversationCellFIleForLoginUser.xib */; };
+		04E843472C3BD06D008D53AC /* ConversationTableViewCellNoLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E843392C3BD06C008D53AC /* ConversationTableViewCellNoLoginUser.xib */; };
+		04E843482C3BD06D008D53AC /* ConversationLoginUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E8433A2C3BD06C008D53AC /* ConversationLoginUserTableViewCell.xib */; };
+		04E843492C3BD06D008D53AC /* ActivityLoaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E8433B2C3BD06C008D53AC /* ActivityLoaderCell.xib */; };
+		04E8434A2C3BD06D008D53AC /* MultiFilesCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E8433C2C3BD06C008D53AC /* MultiFilesCVCell.xib */; };
+		04E8434B2C3BD06D008D53AC /* TopicsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E8433D2C3BD06C008D53AC /* TopicsCollectionViewCell.xib */; };
+		04E8434C2C3BD06D008D53AC /* SystemsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E8433E2C3BD06C008D53AC /* SystemsTVCell.xib */; };
+		04E8434D2C3BD06D008D53AC /* ConversationCellFileNonLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E8433F2C3BD06C008D53AC /* ConversationCellFileNonLoginUser.xib */; };
+		04E8434E2C3BD06D008D53AC /* ConversationCellImageLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E843402C3BD06C008D53AC /* ConversationCellImageLoginUser.xib */; };
+		04E8434F2C3BD06D008D53AC /* ConversationCellImageNoLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E843412C3BD06C008D53AC /* ConversationCellImageNoLoginUser.xib */; };
+		04E843502C3BD06D008D53AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E843432C3BD06C008D53AC /* Assets.xcassets */; };
 		27D81B8C06B50C35B51C4CC239B71893 /* ChatDemoNew-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2A2223BC4E79604F4B4566A614BADB /* ChatDemoNew-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FA1A44AF6DEC3DFEABA1BFD8ACCC76D /* ChatDemoNew-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D0F8FC4910B043EAEACC752F46911F /* ChatDemoNew-dummy.m */; };
 		5FC1737969A211EE29D51CE5B5860A9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -135,19 +135,6 @@
 
 /* Begin PBXFileReference section */
 		0331E806A1D1448474C58435AAE978B7 /* Pods-ChatDemoNew_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatDemoNew_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0458AD052C38119E008249AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0458AD072C3811F2008249AF /* ActivityLoaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityLoaderCell.xib; sourceTree = "<group>"; };
-		0458AD082C3811F2008249AF /* MultiPDFCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiPDFCVCell.xib; sourceTree = "<group>"; };
-		0458AD092C3811F2008249AF /* SystemsTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemsTVCell.xib; sourceTree = "<group>"; };
-		0458AD0A2C3811F2008249AF /* ConversationCellImageLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellImageLoginUser.xib; sourceTree = "<group>"; };
-		0458AD0B2C3811F2008249AF /* TopicsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicsCollectionViewCell.xib; sourceTree = "<group>"; };
-		0458AD0C2C3811F3008249AF /* ConversationTableViewCellNoLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationTableViewCellNoLoginUser.xib; sourceTree = "<group>"; };
-		0458AD0D2C3811F3008249AF /* ConversationLoginUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationLoginUserTableViewCell.xib; sourceTree = "<group>"; };
-		0458AD0E2C3811F3008249AF /* ConversationCellFIleForLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellFIleForLoginUser.xib; sourceTree = "<group>"; };
-		0458AD0F2C3811F3008249AF /* ConversationCellFileNonLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellFileNonLoginUser.xib; sourceTree = "<group>"; };
-		0458AD102C3811F3008249AF /* MultiFilesCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiFilesCVCell.xib; sourceTree = "<group>"; };
-		0458AD112C3811F3008249AF /* MultiImageCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiImageCVCell.xib; sourceTree = "<group>"; };
-		0458AD122C3811F3008249AF /* ConversationCellImageNoLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellImageNoLoginUser.xib; sourceTree = "<group>"; };
 		0458AD1F2C381200008249AF /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		0458AD222C38124F008249AF /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		0458AD232C381250008249AF /* WebResponseForTopics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebResponseForTopics.swift; sourceTree = "<group>"; };
@@ -233,6 +220,19 @@
 		0458AD732C38125B008249AF /* ConversationCellImageNoLoginUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationCellImageNoLoginUser.swift; sourceTree = "<group>"; };
 		0458AD742C38125B008249AF /* SampleNotificationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleNotificationDelegate.swift; sourceTree = "<group>"; };
 		0458AD752C38125B008249AF /* ConversationsByUUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsByUUID.swift; sourceTree = "<group>"; };
+		04E843362C3BD06C008D53AC /* MultiImageCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiImageCVCell.xib; sourceTree = "<group>"; };
+		04E843372C3BD06C008D53AC /* MultiPDFCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiPDFCVCell.xib; sourceTree = "<group>"; };
+		04E843382C3BD06C008D53AC /* ConversationCellFIleForLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellFIleForLoginUser.xib; sourceTree = "<group>"; };
+		04E843392C3BD06C008D53AC /* ConversationTableViewCellNoLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationTableViewCellNoLoginUser.xib; sourceTree = "<group>"; };
+		04E8433A2C3BD06C008D53AC /* ConversationLoginUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationLoginUserTableViewCell.xib; sourceTree = "<group>"; };
+		04E8433B2C3BD06C008D53AC /* ActivityLoaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityLoaderCell.xib; sourceTree = "<group>"; };
+		04E8433C2C3BD06C008D53AC /* MultiFilesCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiFilesCVCell.xib; sourceTree = "<group>"; };
+		04E8433D2C3BD06C008D53AC /* TopicsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicsCollectionViewCell.xib; sourceTree = "<group>"; };
+		04E8433E2C3BD06C008D53AC /* SystemsTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemsTVCell.xib; sourceTree = "<group>"; };
+		04E8433F2C3BD06C008D53AC /* ConversationCellFileNonLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellFileNonLoginUser.xib; sourceTree = "<group>"; };
+		04E843402C3BD06C008D53AC /* ConversationCellImageLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellImageLoginUser.xib; sourceTree = "<group>"; };
+		04E843412C3BD06C008D53AC /* ConversationCellImageNoLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellImageNoLoginUser.xib; sourceTree = "<group>"; };
+		04E843432C3BD06C008D53AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232A6A48096B0AB69DB0C944C9EA84BC /* Pods_ChatDemoNew_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDemoNew_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		256D661A9CD562E165555B52B2E3950E /* ChatDemoNew.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChatDemoNew.modulemap; sourceTree = "<group>"; };
 		3367966A31AB4E2337179742FD5A400F /* Pods-ChatDemoNew_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatDemoNew_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -297,8 +297,8 @@
 		0458AD002C381097008249AF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0458AD042C381173008249AF /* Assets */,
-				0458AD032C38115E008249AF /* Xibs */,
+				04E843422C3BD06C008D53AC /* Assets */,
+				04E843352C3BD06C008D53AC /* Xibs */,
 				0458AD022C381152008249AF /* Storyboards */,
 			);
 			path = Resources;
@@ -318,33 +318,6 @@
 				0458AD1F2C381200008249AF /* Chat.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		0458AD032C38115E008249AF /* Xibs */ = {
-			isa = PBXGroup;
-			children = (
-				0458AD072C3811F2008249AF /* ActivityLoaderCell.xib */,
-				0458AD0E2C3811F3008249AF /* ConversationCellFIleForLoginUser.xib */,
-				0458AD0F2C3811F3008249AF /* ConversationCellFileNonLoginUser.xib */,
-				0458AD0A2C3811F2008249AF /* ConversationCellImageLoginUser.xib */,
-				0458AD122C3811F3008249AF /* ConversationCellImageNoLoginUser.xib */,
-				0458AD0D2C3811F3008249AF /* ConversationLoginUserTableViewCell.xib */,
-				0458AD0C2C3811F3008249AF /* ConversationTableViewCellNoLoginUser.xib */,
-				0458AD102C3811F3008249AF /* MultiFilesCVCell.xib */,
-				0458AD112C3811F3008249AF /* MultiImageCVCell.xib */,
-				0458AD082C3811F2008249AF /* MultiPDFCVCell.xib */,
-				0458AD092C3811F2008249AF /* SystemsTVCell.xib */,
-				0458AD0B2C3811F2008249AF /* TopicsCollectionViewCell.xib */,
-			);
-			path = Xibs;
-			sourceTree = "<group>";
-		};
-		0458AD042C381173008249AF /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				0458AD052C38119E008249AF /* Assets.xcassets */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		0458AD212C38122E008249AF /* Swift */ = {
@@ -436,6 +409,33 @@
 				0458AD232C381250008249AF /* WebResponseForTopics.swift */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		04E843352C3BD06C008D53AC /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				04E843362C3BD06C008D53AC /* MultiImageCVCell.xib */,
+				04E843372C3BD06C008D53AC /* MultiPDFCVCell.xib */,
+				04E843382C3BD06C008D53AC /* ConversationCellFIleForLoginUser.xib */,
+				04E843392C3BD06C008D53AC /* ConversationTableViewCellNoLoginUser.xib */,
+				04E8433A2C3BD06C008D53AC /* ConversationLoginUserTableViewCell.xib */,
+				04E8433B2C3BD06C008D53AC /* ActivityLoaderCell.xib */,
+				04E8433C2C3BD06C008D53AC /* MultiFilesCVCell.xib */,
+				04E8433D2C3BD06C008D53AC /* TopicsCollectionViewCell.xib */,
+				04E8433E2C3BD06C008D53AC /* SystemsTVCell.xib */,
+				04E8433F2C3BD06C008D53AC /* ConversationCellFileNonLoginUser.xib */,
+				04E843402C3BD06C008D53AC /* ConversationCellImageLoginUser.xib */,
+				04E843412C3BD06C008D53AC /* ConversationCellImageNoLoginUser.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		04E843422C3BD06C008D53AC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04E843432C3BD06C008D53AC /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		1B03A25817F667AE8956BA0BA7ACFD7C /* Support Files */ = {
@@ -694,20 +694,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E8434F2C3BD06D008D53AC /* ConversationCellImageNoLoginUser.xib in Resources */,
+				04E8434C2C3BD06D008D53AC /* SystemsTVCell.xib in Resources */,
+				04E843452C3BD06D008D53AC /* MultiPDFCVCell.xib in Resources */,
+				04E843482C3BD06D008D53AC /* ConversationLoginUserTableViewCell.xib in Resources */,
+				04E843502C3BD06D008D53AC /* Assets.xcassets in Resources */,
+				04E843472C3BD06D008D53AC /* ConversationTableViewCellNoLoginUser.xib in Resources */,
+				04E843442C3BD06C008D53AC /* MultiImageCVCell.xib in Resources */,
+				04E8434A2C3BD06D008D53AC /* MultiFilesCVCell.xib in Resources */,
+				04E8434B2C3BD06D008D53AC /* TopicsCollectionViewCell.xib in Resources */,
+				04E8434D2C3BD06D008D53AC /* ConversationCellFileNonLoginUser.xib in Resources */,
+				04E843492C3BD06D008D53AC /* ActivityLoaderCell.xib in Resources */,
+				04E8434E2C3BD06D008D53AC /* ConversationCellImageLoginUser.xib in Resources */,
 				0458AD202C381200008249AF /* Chat.storyboard in Resources */,
-				0458AD1E2C3811F3008249AF /* ConversationCellImageNoLoginUser.xib in Resources */,
-				0458AD1A2C3811F3008249AF /* ConversationCellFIleForLoginUser.xib in Resources */,
-				0458AD152C3811F3008249AF /* SystemsTVCell.xib in Resources */,
-				0458AD142C3811F3008249AF /* MultiPDFCVCell.xib in Resources */,
-				0458AD172C3811F3008249AF /* TopicsCollectionViewCell.xib in Resources */,
-				0458AD1D2C3811F3008249AF /* MultiImageCVCell.xib in Resources */,
-				0458AD062C38119E008249AF /* Assets.xcassets in Resources */,
-				0458AD1B2C3811F3008249AF /* ConversationCellFileNonLoginUser.xib in Resources */,
-				0458AD182C3811F3008249AF /* ConversationTableViewCellNoLoginUser.xib in Resources */,
-				0458AD1C2C3811F3008249AF /* MultiFilesCVCell.xib in Resources */,
-				0458AD192C3811F3008249AF /* ConversationLoginUserTableViewCell.xib in Resources */,
-				0458AD132C3811F3008249AF /* ActivityLoaderCell.xib in Resources */,
-				0458AD162C3811F3008249AF /* ConversationCellImageLoginUser.xib in Resources */,
+				04E843462C3BD06D008D53AC /* ConversationCellFIleForLoginUser.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,9 +29,21 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
+
+  
+  
+  s.source_files = 'ChatDemoNew/Classes/**/*.{swift,h,m}'
+  s.resources = ['Resources/Storyboards/*.{storyboard}',
+                   'Resources/Xibs/*.{xib}',
+                   'Resources/Assets/**/*.{xcassets,png,jpeg,jpg,gif}']
+  s.exclude_files = "Classes/Exclude"
+  
+ # s.resources = 'Resources/Storyboards/**/*.storyboard'
+  
 #  s.source_files = 'ChatDemoNew/Classes/**/*'
-  s.source_files = 'Classes/**/*.{swift,h,m}'
-  s.resources = 'Resources/**/*.{storyboard,xib,xcassets,png,jpeg,jpg,gif}'
+#  s.source_files = 'Classes/**/*.{swift,h,m}'
+#  s.resources = 'Resources/**/*.{storyboard,xib,xcassets,png,jpeg,jpg,gif}'
+  # s.resources = 'ChatDemoNew/Resources/**/*.{storyboard,xib,xcassets,png,jpeg,jpg,gif}'
   
   s.frameworks = ['UIKit', 'Foundation', 'QuickLook', 'Photos', 'MobileCoreServices']
     
